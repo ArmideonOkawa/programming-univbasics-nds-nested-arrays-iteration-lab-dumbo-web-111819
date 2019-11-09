@@ -36,7 +36,9 @@ def total_even_pairs(src)
   row = 0 
   total = 0 
   
+  while row < src.length 
   
+    if src[row][0] % 2 == 0 
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # if both numbers in the pair are even, then add both those numbers to the
   # total
